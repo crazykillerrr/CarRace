@@ -65,11 +65,8 @@ public class FXMLDocumentController implements Initializable {
         user.requestFocus();
         scene.setOnKeyPressed(this::onKeyPressed);
 
-       
         gameOverLabel.setVisible(false);
         finalScoreLabel.setVisible(false);
-        
-
         
         enemyController.startEnemySpawning();
         startMovingForward();
@@ -120,8 +117,6 @@ public class FXMLDocumentController implements Initializable {
             e.printStackTrace();
         }
     }
-
- 
     public void exitGame() {
         System.exit(0); 
     }
