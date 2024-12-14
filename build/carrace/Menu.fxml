@@ -12,14 +12,19 @@
             <Image url="file:/C:/Users/ddzul/OneDrive/Documents/Dokumen/NetBeansProjects/carRace/src/img/menu.jpg" />
          </image>
       </ImageView>
-      <ImageView fx:id="playBtn" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="playBtn" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="file:/C:/Users/ddzul/OneDrive/Documents/Dokumen/NetBeansProjects/carRace/src/img/play.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="exitBtn" fitHeight="51.0" fitWidth="211.0" layoutX="16.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="exitBtn" fitHeight="51.0" fitWidth="211.0" layoutX="16.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="file:/C:/Users/ddzul/OneDrive/Documents/Dokumen/NetBeansProjects/carRace/src/img/exit1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="118.0" fitWidth="468.0" layoutX="93.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/namagame.png" />
          </image>
       </ImageView>
    </children>
