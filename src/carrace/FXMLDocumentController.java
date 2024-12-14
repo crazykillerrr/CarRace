@@ -88,7 +88,7 @@ public class FXMLDocumentController implements Initializable {
 
     @FXML
     private void onKeyPressed(KeyEvent event) {
-        if (gameOver) return; // Prevent input during game over
+        if (gameOver) return; 
         userController.movement(event.getCode());
     }
 
